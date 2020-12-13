@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;1,500&family=Zilla+Slab:wght@300;400;500;600&display=swap");
+.App {
+  text-align: center;
+  font-family: "Zilla Slab", serif;
+  height: auto;
+}
+body {
+  background-color: black;
+  color: white;
+  font-family: "Zilla Slab", serif;
+}
+.spanRed {
+  color: red;
+}
+header {
+  font-size: 3rem;
+}
+
+.capsules {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 10px;
+  cursor: pointer;
+  border-radius: 16px;
+  font-size: 1.25rem;
+}
+
+.info-card {
+  margin-top: 2rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  /* height: max-content; */
+
+  /* margin-left: 25%;
+  margin-right: 25%; */
+}
+.container {
+  /* border: 1px solid #101010;
+  border-collapse: separate;
+  border-spacing: 5px; */
+  /* border-block-end: solid;
+  writing-mode: horizontal-tb;
+  border-left: 1px solid; */
+  width: 26rem;
+  height: auto;
+  padding: 1rem;
+  border: 1px solid white;
+}
+.info-card:hover {
+  background-color: #101010;
+}
+.left-card {
+  padding-top: 0.5rem;
+
+  max-width: 24rem;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.right-card {
+  height: 100%;
+  width: auto;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  padding-left: 1rem;
+  padding-bottom: 0.5rem;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
