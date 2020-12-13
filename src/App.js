@@ -5,7 +5,7 @@ import { database } from "./database";
 var databaseArray = Object.keys(database);
 
 export default function App() {
-  const [selectedMovie, setSelectedMovie] = useState("Marvel");
+  const [selectedMovie, setSelectedMovie] = useState("marvel");
   function onclickHandler(movie) {
     setSelectedMovie(movie);
     console.log(selectedMovie);
@@ -14,7 +14,7 @@ export default function App() {
     <div className="App">
       <header className="spanRed">for binge</header>
       <h2>
-        cofused what to watch on the weekend?? try{" "}
+        confused what to watch on the weekend?? try{" "}
         <span className="spanRed">for binge</span>!!
       </h2>
       <h2> a simple app with tons of options for you!!</h2>
@@ -37,20 +37,14 @@ export default function App() {
       <div className="cards">
         {database[selectedMovie].map((movie) => {
           return (
-            <div className="info-card container">
-              <img className="left-card" src={movie.poster} alt="poster" />
+            <div className="movieCards">
+              <img className="image" src={movie.poster} alt="poster" />
 
-              <div className="right-card">
-                <div className="movie-name"> {movie.name}</div>
-                <div className="movie-date">
-                  Released On : {movie.releaseDate}
-                </div>
-                <div className="movie-rating">
-                  IMDb Rating : {movie.ratingIMDb}
-                </div>
-                <div className="movie-director">
-                  Directed by : {movie.director}
-                </div>
+              <div className="infoCard ">
+                <div className="spanRed"> {movie.name}</div>
+                <div>Released On : {movie.releaseDate}</div>
+                <div>IMDb Rating : {movie.ratingIMDb}</div>
+                <div>Directed by : {movie.director}</div>
               </div>
             </div>
           );

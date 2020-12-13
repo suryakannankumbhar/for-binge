@@ -29,32 +29,24 @@ header {
   border-radius: 16px;
   font-size: 1.25rem;
 }
+ul {
+  padding-left: 0px;
+}
 
-.info-card {
+.movieCards {
   margin-top: 2rem;
   border-radius: 5px;
   margin-bottom: 1rem;
-  /* height: max-content; */
-
-  /* margin-left: 25%;
-  margin-right: 25%; */
-}
-.container {
-  /* border: 1px solid #101010;
-  border-collapse: separate;
-  border-spacing: 5px; */
-  /* border-block-end: solid;
-  writing-mode: horizontal-tb;
-  border-left: 1px solid; */
   width: 26rem;
   height: auto;
   padding: 1rem;
-  border: 1px solid white;
+  border: 3px solid #101010;
 }
-.info-card:hover {
+
+.movieCards:hover {
   background-color: #101010;
 }
-.left-card {
+.image {
   padding-top: 0.5rem;
 
   max-width: 24rem;
@@ -62,17 +54,28 @@ header {
   border-top-left-radius: 5px;
 }
 
-.right-card {
+.infoCard {
   height: 100%;
   width: auto;
   border-bottom-left-radius: 5px;
   border-top-left-radius: 5px;
   padding-left: 1rem;
   padding-bottom: 0.5rem;
+  padding-top: 10px;
 }
 
 .cards {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+}
+
+@media screen and (max-width: 700px) {
+  .movieCards {
+    flex-direction: column;
+  }
+  .image {
+    width: 100%;
+    height: auto;
+  }
 }

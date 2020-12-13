@@ -1,5 +1,5 @@
 export const database = {
-  Marvel: [
+  marvel: [
     {
       name: "The Incredible Hulk",
       releaseDate: "2008",
@@ -72,7 +72,7 @@ export const database = {
         "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5298bac0-b8bf-4c80-af67-725c1272dbb0/dbqyhh7-1aaad27e-1e5c-4fa1-96c5-7a888a6dbefe.jpg/v1/fill/w_1192,h_670,q_70,strp/avengers__infinity_war_wallpaper_by_thekingblader995_dbqyhh7-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD0xMDgwIiwicGF0aCI6IlwvZlwvNTI5OGJhYzAtYjhiZi00YzgwLWFmNjctNzI1YzEyNzJkYmIwXC9kYnF5aGg3LTFhYWFkMjdlLTFlNWMtNGZhMS05NmM1LTdhODg4YTZkYmVmZS5qcGciLCJ3aWR0aCI6Ijw9MTkyMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.xYiCwtw4AoZnU7TxQHDX7Lae60bM59yM-1l6JjmaPF0"
     }
   ],
-  "DC Comics": [
+  dc: [
     {
       name: "Batman Begins",
       releaseDate: "2005",
@@ -96,7 +96,7 @@ export const database = {
         "https://i.pinimg.com/originals/ac/7b/13/ac7b13431c8acd1031333351669f09d0.jpg"
     }
   ],
-  "Mind-Fuck Movies": [
+  "sci-fi": [
     {
       name: "Inception",
       releaseDate: "2010",
