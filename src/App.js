@@ -5,7 +5,7 @@ import { database } from "./database";
 var databaseArray = Object.keys(database);
 
 export default function App() {
-  const [selectedMovie, setSelectedMovie] = useState("marvel");
+  const [selectedMovie, setSelectedMovie] = useState("all");
   function onclickHandler(movie) {
     setSelectedMovie(movie);
     console.log(selectedMovie);
@@ -18,6 +18,7 @@ export default function App() {
         <span className="spanRed">for binge</span>!!
       </h2>
       <h2> a simple app with tons of options for you!!</h2>
+      <h5>*will be updating the database with more movies and genre soon!!</h5>
       <hr />
       <section>
         <ul>
