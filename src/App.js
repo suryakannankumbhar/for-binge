@@ -54,7 +54,11 @@ export default function App() {
         })}
       </div>
       <a className="topBtn" href="#home">
-        <img src="arrow-144-512.png" height="50" alt="top button"></img>
+        <img
+          src="https://lh3.googleusercontent.com/proxy/u8_3kMsYaMzTxj5dIYoO5qZOATgtoN0zMLZF5-Em_3rjHEiNnSayO_JNUUKisVaXun2OKDASw3zVlPmGjONr8CDUgpuBSm1qldU_wPqmRAhLA7oAILLdStvc9Q1FVHi5Iopfh6omfee0uL5ScmeV"
+          alt="top-button"
+          height="45px"
+        ></img>
       </a>
     </div>
   );
