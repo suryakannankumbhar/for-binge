@@ -54,11 +54,7 @@ export default function App() {
         })}
       </div>
       <a className="topBtn" href="#home">
-        <img
-          src="https://www.iconsdb.com/icons/preview/white/arrow-144-xxl.png"
-          height="50"
-          alt="top button"
-        ></img>
+        <img src="arrow-144-512.png" height="50" alt="top button"></img>
       </a>
     </div>
   );
