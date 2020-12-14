@@ -70,8 +70,10 @@ ul {
 
 .topBtn {
   position: fixed;
-  bottom: 15px;
-  right: 15px;
+  bottom: 30px;
+  right: 30px;
+  color: white;
+  text-decoration: none;
 }
 
 .cards {
@@ -88,4 +90,11 @@ ul {
     width: 100%;
     height: auto;
   }
+}
+
+.topButton {
+  font-size: 50px;
+  padding: 5px;
+  border: 5px solid white;
+  border-radius: 50%;
 }

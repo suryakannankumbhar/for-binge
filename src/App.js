@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./styles.css";
 import { database } from "./database";
+import KeyboardArrowUpIcon from "@material-ui/icons/KeyboardArrowUp";
 
 var databaseArray = Object.keys(database);
 
@@ -54,11 +55,7 @@ export default function App() {
         })}
       </div>
       <a className="topBtn" href="#home">
-        <img
-          src="https://lh3.googleusercontent.com/proxy/u8_3kMsYaMzTxj5dIYoO5qZOATgtoN0zMLZF5-Em_3rjHEiNnSayO_JNUUKisVaXun2OKDASw3zVlPmGjONr8CDUgpuBSm1qldU_wPqmRAhLA7oAILLdStvc9Q1FVHi5Iopfh6omfee0uL5ScmeV"
-          alt="top-button"
-          height="45px"
-        ></img>
+        <KeyboardArrowUpIcon className="topButton" />
       </a>
     </div>
   );
