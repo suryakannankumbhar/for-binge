@@ -1,6 +1,38 @@
 export const database = {
   all: [
     {
+      name: "Naruto",
+      releaseDate: "2002",
+      ratingIMDb: "8.5/10",
+      director: "Masashi Kishimoto",
+      poster:
+        "https://i.pinimg.com/originals/d5/be/3a/d5be3a21870ee870bc4b45dd92e68297.jpg"
+    },
+    {
+      name: "Dragon Ball",
+      releaseDate: "1995",
+      ratingIMDb: "8.5/10",
+      director: "Akira Toriyama",
+      poster:
+        "https://amwkejmaio.cloudimg.io/v7/https://dbz-shop.com/wp-content/uploads/2019/10/dragonballsuperrumors-blogroll-1552950932643.jpg"
+    },
+    {
+      name: "Death Note",
+      releaseDate: "2006",
+      ratingIMDb: "9/10",
+      director: "Tsugumi Ohba",
+      poster:
+        "https://cdn.shopify.com/s/files/1/0747/3829/products/mGR0115_1024x1024.jpeg?v=1571444026"
+    },
+    {
+      name: "Code Geass",
+      releaseDate: "2006",
+      ratingIMDb: "8.6/10",
+      director: "Ichirō Ōkouchi",
+      poster:
+        "https://images-na.ssl-images-amazon.com/images/I/716S4vU4vLL._AC_SL1039_.jpg"
+    },
+    {
       name: "Iron Man",
       releaseDate: "2008",
       ratingIMDb: "7.9/10",
@@ -465,6 +497,40 @@ export const database = {
       director: "Christopher Nolan",
       poster:
         "https://desktopwalls.net/wp-content/uploads/2015/03/Interstellar%20Movie%20Satellite%20Desktop%20Wallpaper.jpg"
+    }
+  ],
+  anime: [
+    {
+      name: "Naruto",
+      releaseDate: "2002",
+      ratingIMDb: "8.5/10",
+      director: "Masashi Kishimoto",
+      poster:
+        "https://i.pinimg.com/originals/d5/be/3a/d5be3a21870ee870bc4b45dd92e68297.jpg"
+    },
+    {
+      name: "Dragon Ball",
+      releaseDate: "1995",
+      ratingIMDb: "8.5/10",
+      director: "Akira Toriyama",
+      poster:
+        "https://amwkejmaio.cloudimg.io/v7/https://dbz-shop.com/wp-content/uploads/2019/10/dragonballsuperrumors-blogroll-1552950932643.jpg"
+    },
+    {
+      name: "Death Note",
+      releaseDate: "2006",
+      ratingIMDb: "9/10",
+      director: "Tsugumi Ohba",
+      poster:
+        "https://cdn.shopify.com/s/files/1/0747/3829/products/mGR0115_1024x1024.jpeg?v=1571444026"
+    },
+    {
+      name: "Code Geass",
+      releaseDate: "2006",
+      ratingIMDb: "8.6/10",
+      director: "Ichirō Ōkouchi",
+      poster:
+        "https://images-na.ssl-images-amazon.com/images/I/716S4vU4vLL._AC_SL1039_.jpg"
     }
   ]
 };
