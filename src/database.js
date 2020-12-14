@@ -33,6 +33,22 @@ export const database = {
         "https://images-na.ssl-images-amazon.com/images/I/716S4vU4vLL._AC_SL1039_.jpg"
     },
     {
+      name: "Tokyo Ghoul",
+      releaseDate: "2014",
+      ratingIMDb: "7.9/10",
+      director: "Sui Ishida",
+      poster:
+        "https://toonamifaithful.com/wp-content/uploads/2017/03/tokyo-ghoul-pictures_095921755_290.jpg"
+    },
+    {
+      name: "Attack On Titan",
+      releaseDate: "2013",
+      ratingIMDb: "8.8/10",
+      director: "Hajime Isayama",
+      poster:
+        "https://www.wallpapertip.com/wmimgs/1-10435_attack-on-titan-season-3-wallpaper-hd.png"
+    },
+    {
       name: "Iron Man",
       releaseDate: "2008",
       ratingIMDb: "7.9/10",

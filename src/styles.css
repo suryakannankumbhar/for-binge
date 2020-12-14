@@ -14,6 +14,7 @@ body {
 }
 header {
   font-size: 3rem;
+  font-weight: bolder;
 }
 
 .capsules {
@@ -40,21 +41,21 @@ ul {
   width: 26rem;
   height: auto;
   padding: 1rem;
-  border: 3px solid #101010;
+  border: 3px solid white;
 }
 
 .movieCards:hover {
-  background-color: #101010;
+  background-color: #2f4f4f;
 }
 .image {
-  padding-top: 0.5rem;
-
+  margin-top: 0.5rem;
+  border: 2.5px solid red;
   max-width: 24rem;
-  border-bottom-left-radius: 5px;
-  border-top-left-radius: 5px;
+  border-radius: 5px;
 }
 
 .infoCard {
+  font-weight: bold;
   height: 100%;
   width: auto;
   border-bottom-left-radius: 5px;
