@@ -68,6 +68,12 @@ ul {
   padding-top: 10px;
 }
 
+.topBtn {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+}
+
 .cards {
   display: flex;
   flex-wrap: wrap;

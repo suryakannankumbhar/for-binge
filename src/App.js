@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./styles.css";
 import { database } from "./database";
+import ArrowUpwardIcon from "@material-ui/icons/ArrowUpward";
 
 var databaseArray = Object.keys(database);
 
@@ -12,7 +13,9 @@ export default function App() {
   }
   return (
     <div className="App">
-      <header className="spanRed">for binge</header>
+      <header className="spanRed" id="home">
+        for binge
+      </header>
       <h2>
         confused what to watch on the weekend?? try{" "}
         <span className="spanRed">for binge</span>!!
@@ -51,6 +54,12 @@ export default function App() {
           );
         })}
       </div>
+      <a className="topBtn" href="#home">
+        <img
+          src="https://www.iconsdb.com/icons/preview/white/arrow-144-xxl.png"
+          height="50"
+        ></img>
+      </a>
     </div>
   );
 }
