@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "./styles.css";
 import { database } from "./database";
-import ArrowUpwardIcon from "@material-ui/icons/ArrowUpward";
 
 var databaseArray = Object.keys(database);
 
