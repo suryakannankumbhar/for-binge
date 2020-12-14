@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "./styles.css";
 import { database } from "./database";
-import KeyboardArrowUpIcon from "@material-ui/icons/KeyboardArrowUp";
 import topB from "./keyboard_capslock-black-48dp.svg";
 
 var databaseArray = Object.keys(database);
@@ -56,7 +55,7 @@ export default function App() {
         })}
       </div>
       <a href="#home">
-        <img className="topBtn" src={topB} />
+        <img className="topBtn" src={topB} alt="top-button" />
       </a>
     </div>
   );
