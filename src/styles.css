@@ -4,6 +4,9 @@
   font-family: "Zilla Slab", serif;
   height: auto;
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
   background-color: black;
   color: white;
