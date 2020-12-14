@@ -57,6 +57,7 @@ export default function App() {
         <img
           src="https://www.iconsdb.com/icons/preview/white/arrow-144-xxl.png"
           height="50"
+          alt="top button"
         ></img>
       </a>
     </div>
